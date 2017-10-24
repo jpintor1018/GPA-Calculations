@@ -1,9 +1,13 @@
 # GPA-Calculations
 
 #include <iostream>
+
 using namespace std;
+
 int main()
+
 {
+
     int num,ocourse,classes,c1,c2,c3,c4,coursecrdt;
     double ogpa,g1,g2,g3,g4,honorpts;
 
@@ -34,8 +38,9 @@ int main()
     cout<<"Current GPA:                         "<<c1*g1/c1<<endl;
     }
     else if (classes == 2)
-{
-   cout<<"Enter number of credits for first class in new semester\n"<<endl;
+    {
+
+    cout<<"Enter number of credits for first class in new semester\n"<<endl;
     cin>>c1;
     cout<<"Enter grade for first class in new semester\n"<<endl;
     cin>>g1;
@@ -47,10 +52,11 @@ int main()
     cout<<"New Honor Points:                    "<<c1*g1+c2*g2<<endl;
     cout<<"Total number of new course credit:   "<<c1+c2<<endl;
     cout<<"Current GPA:                         "<<(c1*g1+c2*g2)/(c1+c2)<<endl;
-}
+    
+    }
     else if (classes == 3)
     {
-        cout<<"Enter number of credits for first class in new semester\n"<<endl;
+    cout<<"Enter number of credits for first class in new semester\n"<<endl;
     cin>>c1;
     cout<<"Enter grade for first class in new semester\n"<<endl;
     cin>>g1;
@@ -92,9 +98,13 @@ int main()
     cout<<"New Honor Points:                    "<<honorpts<<endl;
     cout<<"Total number of new course credit:   "<<coursecrdt<<endl;
     cout<<"Current GPA:                         "<<honorpts/coursecrdt<<endl;
+    
+    
     }
 
+
     return 0;
+    
 
 }
 
