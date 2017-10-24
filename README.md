@@ -26,6 +26,8 @@ int main()
     cout<<endl;
     cout<<"How many classes are you taking this semester? (minimum 5)\n"<<endl;
     cin>>classes;
+    
+    
     if (classes==1)
     {
     
